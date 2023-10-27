@@ -2,22 +2,28 @@
   "bolureadyforeveryday": [
     {
       "id": 1,
-      "nama": "Bolu Pandan mini",
+      "nama": "Bolu Pandan Mini",
       "gambar": "img/bolu/mikapandan.webp",
       "harga": 25000,
       "deskripsi": "Bolu pandan lembut dengan taburan coklat serut di atasnya."
     },
+    {
+      "id": 8,
+      "nama": "Bolu Brownies Mini",
+      "gambar": "img/bolu/brownies.webp",
+      "harga": 35000,
+      "deskripsi": "Bolu beraroma coklat brownies dengan coklat leleh yang enak."
+    }
+  ],
 
+  "bolupilihan": [
     {
       "id": 2,
       "nama": "Bolu Pandan",
       "gambar": "img/bolu/pandan.webp",
       "harga": 45000,
       "deskripsi": "Bolu pandan lembut dengan taburan coklat serut di atasnya."
-    }
-  ],
-
-  "bolupilihan": [
+    },
     {
       "id": 3,
       "nama": "Bolu Mocca",
@@ -52,13 +58,6 @@
       "gambar": "img/bolu/pisang.webp",
       "harga": 45000,
       "deskripsi": "Bolu pisang lembut dengan aroma pisang segar."
-    },
-    {
-      "id": 8,
-      "nama": "Bolu Brownies Mini",
-      "gambar": "img/bolu/brownies.webp",
-      "harga": 35000,
-      "deskripsi": "Bolu beraroma coklat brownies dengan coklat leleh."
     },
     {
       "id": 9,
