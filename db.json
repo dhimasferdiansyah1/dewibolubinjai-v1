@@ -1,66 +1,77 @@
 {
-  "bolu": [
+  "bolureadyforeveryday": [
     {
       "id": 1,
-      "nama": "Bolu Pandan",
-      "gambar": "img/bolu/pandan.webp",
-      "harga": 40000,
+      "nama": "Bolu Pandan mini",
+      "gambar": "img/bolu/mikapandan.webp",
+      "harga": 25000,
       "deskripsi": "Bolu pandan lembut dengan taburan coklat serut di atasnya."
     },
+
     {
       "id": 2,
+      "nama": "Bolu Pandan",
+      "gambar": "img/bolu/pandan.webp",
+      "harga": 45000,
+      "deskripsi": "Bolu pandan lembut dengan taburan coklat serut di atasnya."
+    }
+  ],
+
+  "bolupilihan": [
+    {
+      "id": 3,
       "nama": "Bolu Mocca",
       "gambar": "img/bolu/mocca.webp",
-      "harga": 40000,
+      "harga": 45000,
       "deskripsi": "Bolu dengan rasa mocca yang segar dan manis."
     },
     {
-      "id": 3,
+      "id": 4,
       "nama": "Bolu Keju",
       "gambar": "img/bolu/keju.webp",
-      "harga": 40000,
+      "harga": 45000,
       "deskripsi": "Bolu manis dengan keju serut di atasnya."
     },
     {
-      "id": 4,
+      "id": 5,
       "nama": "Bolu Karamel",
       "gambar": "img/bolu/karamel.webp",
-      "harga": 40000,
+      "harga": 45000,
       "deskripsi": "Bolu beraroma karamel yang lembut dan harum."
     },
     {
-      "id": 5,
+      "id": 6,
       "nama": "Bolu Sukade",
       "gambar": "img/bolu/sukade.webp",
-      "harga": 40000,
+      "harga": 45000,
       "deskripsi": "Bolu dengan potongan sukade yang manis di dalamnya."
     },
     {
-      "id": 6,
+      "id": 7,
       "nama": "Bolu Pisang",
       "gambar": "img/bolu/pisang.webp",
       "harga": 45000,
       "deskripsi": "Bolu pisang lembut dengan aroma pisang segar."
     },
     {
-      "id": 7,
-      "nama": "Bolu Brownies",
+      "id": 8,
+      "nama": "Bolu Brownies Mini",
       "gambar": "img/bolu/brownies.webp",
-      "harga": 50000,
+      "harga": 35000,
       "deskripsi": "Bolu beraroma coklat brownies dengan coklat leleh."
     },
     {
-      "id": 8,
+      "id": 9,
       "nama": "Bolu Ulang Tahun",
       "gambar": "img/bolu/ultah.webp",
-      "harga": 60000,
+      "harga": 80000,
       "deskripsi": "Bolu cantik dan indah untuk merayakan ulang tahun."
     },
     {
-      "id": 9,
+      "id": 10,
       "nama": "Bolu Rainbow",
       "gambar": "img/bolu/rainbow.webp",
-      "harga": 30000,
+      "harga": 50000,
       "deskripsi": "kue lezat dengan lapisan warna-warni yang cerah"
     }
   ]
