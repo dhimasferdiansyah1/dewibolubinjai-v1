@@ -1,0 +1,60 @@
+{
+  "bolu": [
+    {
+      "id": 1,
+      "nama": "Bolu Pandan",
+      "gambar": "img/bolu/pandan.webp",
+      "harga": 25000,
+      "deskripsi": "Bolu pandan lembut dengan taburan coklat serut di atasnya."
+    },
+    {
+      "id": 2,
+      "nama": "Bolu Mocca",
+      "gambar": "img/bolu/mocca.webp",
+      "harga": 28000,
+      "deskripsi": "Bolu dengan rasa mocca yang segar dan manis."
+    },
+    {
+      "id": 3,
+      "nama": "Bolu Keju",
+      "gambar": "img/bolu/keju.webp",
+      "harga": 22000,
+      "deskripsi": "Bolu manis dengan keju serut di atasnya."
+    },
+    {
+      "id": 4,
+      "nama": "Bolu Karamel",
+      "gambar": "img/bolu/karamel.webp",
+      "harga": 23000,
+      "deskripsi": "Bolu beraroma karamel yang lembut dan harum."
+    },
+    {
+      "id": 5,
+      "nama": "Bolu Sukade",
+      "gambar": "img/bolu/sukade.webp",
+      "harga": 26000,
+      "deskripsi": "Bolu dengan potongan sukade yang manis di dalamnya."
+    },
+    {
+      "id": 6,
+      "nama": "Bolu Pisang",
+      "gambar": "img/bolu/pisang.webp",
+      "harga": 24000,
+      "deskripsi": "Bolu pisang lembut dengan aroma pisang segar."
+    },
+    {
+      "id": 7,
+      "nama": "Bolu Brownies",
+      "gambar": "img/bolu/brownies.webp",
+      "harga": 27000,
+      "deskripsi": "Bolu beraroma coklat brownies dengan coklat leleh."
+    },
+    {
+      "id": 8,
+      "nama": "Bolu Ulang Tahun",
+      "gambar": "img/bolu/ultah.webp",
+      "harga": 27000,
+      "deskripsi": "Bolu cantik dan indah untuk merayakan ulang tahun."
+    }
+  ]
+}

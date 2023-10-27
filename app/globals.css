@@ -2,26 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body {
+  background-image: radial-gradient(#ffedf6 2px, transparent 2px),
+    radial-gradient(#ffedf6 2px, transparent 2px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  background-color: #ffffff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.card {
+  opacity: 0;
+  animation: fadeInDown 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px); /* Pindahkan elemen ke atas sejauh 20px */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Kembalikan elemen ke posisi awal */
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.fade-in-down {
+  animation: fadeInDown 0.5s ease-in-out forwards;
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.navbar {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
