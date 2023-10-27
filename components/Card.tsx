@@ -38,9 +38,7 @@ const Card = ({ id, nama, gambar, harga, deskripsi }: dataProps) => {
           <p className="mt-1 text-slate-500 ">{deskripsi}</p>
           <p className="mt-1 text-green-600 font-bold">Rp. {harga}</p>
           <Link
-            href={`https://wa.me/6282285714607?text=${encodeURIComponent(
-              `✨Ingin mengajukan Pesanan✨%0A-------------------------------------------------------%0A%0ANama%20Bolu%20:%20Bolu%20Pandan%0AHarga%20:%2025000%0ATanggal%20:%2010/27/2023%0A%0AMohon%20untuk%20mengisi%0ANama%20Pemesan%20:%20%0AAlamat%20:%20`
-            )}`}
+            href={`https://wa.me/6282285714607?text=Ingin%20mengajukan%20Pesanan%0A---------------------------------%0A%0ANama%20Bolu%20:%20${nama}%0AHarga%20:%20${harga}%0ATanggal%20:%20${new Date().toLocaleDateString()}%0A%0ANama%20Pemesan%20:%20%0AAlamat%20:%20`}
             className="mt-3 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-[#BEADFA] text-gray-600 hover:bg-[#F875AA] focus:outline-none focus:ring-2 focus:ring-[#F875AA] focus:ring-offset-2 transition-all text-sm "
           >
             Pesan Sekarang
