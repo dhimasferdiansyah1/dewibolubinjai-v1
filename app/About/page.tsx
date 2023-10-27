@@ -2,7 +2,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="container min-h-screen mx-auto">
+    <div className="container min-h-screen mx-auto card">
       <div className="bg-white md:p-10 p-2 mx-2 shadow-md md:mx-10 mt-5">
         <div className="md:grid md:grid-cols-2 gap-8 flex flex-col max-w-6xl mx-auto">
           <div className="flex justify-center">
