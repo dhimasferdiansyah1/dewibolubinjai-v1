@@ -27,7 +27,7 @@ const Card = ({ id, nama, gambar, harga, deskripsi }: dataProps) => {
         className="flex flex-col bg-white shadow-lg w-80 h-auto rounded-lg"
       >
         <img
-          className="w-full h-full rounded-t-md object-cover"
+          className="w-96 h-72 rounded-t-md object-cover"
           src={gambar}
           alt="Image Description"
           height={512}

@@ -56,7 +56,7 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
-              <div className="flex-shrink-0 flex gap-4 items-center">
+              <div className="flex-shrink-0 flex gap-2 md:gap-4 items-center">
                 <img
                   src="img/logo.png"
                   alt="logo"
@@ -64,7 +64,7 @@ const Navbar = () => {
                 />
                 <Link
                   href={"/"}
-                  className="text-2xl text-slate-900 font-extrabold italic hover:scale-110 hover:duration-300 duration-300 hover:text-white"
+                  className="text-xl text-slate-900 font-extrabold italic hover:scale-110 hover:duration-300 duration-300 hover:text-white"
                 >
                   Dewi Bolu Binjai
                 </Link>
