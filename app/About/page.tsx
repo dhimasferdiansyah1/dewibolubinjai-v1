@@ -7,21 +7,24 @@ const page = () => {
         <div className="md:grid md:grid-cols-2 gap-8 flex flex-col max-w-6xl mx-auto">
           <div className="flex justify-center">
             <img
-              src="img/landing.jpeg"
+              src="img/logo.png"
               className="w-96 h-96 rounded-lg object-cover"
               alt="gambarabout"
             />
           </div>
 
           <div className="text-left pb-4">
-            Dewi Bolu Binjai adalah sebuah usaha bakery yang berlokasi di Binjai
-            Barat, Kota Binjai. Dewi Bolu Binjai menawarkan berbagai macam bolu
-            dengan rasa dan topping yang lezat, seperti bolu mocca, bolu pandan,
-            bolu coklat, dan bolu keju. Dewi Bolu Binjai juga menerima pesanan
-            kue ulang tahun, kue pernikahan, dan kue kering untuk berbagai
-            acara. Dewi Bolu Binjai berkomitmen untuk memberikan produk
-            berkualitas dengan harga terjangkau dan pelayanan yang ramah. Dewi
-            Bolu Binjai dapat dihubungi melalui GoFood atau Google Maps.
+            Bolpan CDR adalah website yang menyediakan berbagai macam bolu yang
+            lezat dan berkualitas. Anda bisa memesan bolu secara online dan
+            menikmati rasa yang nikmat dan manis. Bolpan CDR menawarkan bolu
+            dengan berbagai varian, seperti bolu pandan mini, bolu brownies mini
+            yang tersedia setiap harinya, serta bolu pandan, bolu mocca, bolu
+            keju, bolu karamel, bolu sukade, bolu pisang, bolu ulang tahun, bolu
+            rainbow. Semua bolu dibuat dengan bahan-bahan pilihan dan tanpa
+            pengawet. Bolpan CDR juga memberikan layanan antar dan kemasan yang
+            menarik. Anda bisa mengunjungi website Bolpan CDR di sini untuk
+            melihat katalog bolu dan cara pemesanan. Bolpan CDR, bolu yang bikin
+            ketagihan!
           </div>
         </div>
       </div>
